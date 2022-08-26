@@ -48,7 +48,7 @@ jobs:
         run: |
           outdir=$(python -c "print('${{ matrix.image }}'.replace(':', '/'))")
           root=$(python -c "print('${{ matrix.image }}'.split('/')[0])")
-          mkdir -p  ${outdir}
+          mkdir -p /tmp/${outdir}
           echo ${outdir}
           echo "outdir=${outdir}" >> $GITHUB_ENV
           echo "root=${root}" >> $GITHUB_ENV
