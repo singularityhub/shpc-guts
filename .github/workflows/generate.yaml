@@ -71,6 +71,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git config --global pull.rebase true
+          git checkout main
 
           git branch
           git add ${outdir}/*
@@ -81,4 +82,4 @@ jobs:
              today=$(date '+%Y-%m-%d')
              git commit -a -m "Automated deployment to add/update ${outdir}"  
              git push origin main
-          sfi
+          fi
