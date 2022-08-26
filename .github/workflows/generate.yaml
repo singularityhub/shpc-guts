@@ -15,8 +15,6 @@ jobs:
   generate-recipe:
     if: (inputs.docker_uri != '')
     runs-on: ubuntu-latest
-    permissions:
-      packages: read
     name: ${{ inputs.docker_uri }}
     steps:
       - name: Checkout Repository
@@ -29,8 +27,6 @@ jobs:
   generate-recipes:
     if: (inputs.docker_uri == '')
     runs-on: ubuntu-latest
-    permissions:
-      packages: read
     strategy:
       fail-fast: false
 
