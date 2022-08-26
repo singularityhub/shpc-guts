@@ -1,5 +1,6 @@
 name: Generate Container Guts
 on:
+  pull_request: []
   push:
     branches:
       - main
@@ -35,6 +36,7 @@ jobs:
         image: ["ubuntu:18.04", "ubuntu:20.04", "ubuntu:22.04",
                 "centos:6", "centos:7", "centos:8", 
                 "rockylinux:8.6", "rockylinux:9.0",
+                "fedora:34", "fedora:35", "fedora:36".
                 "alpine:3.7", "alpine:3.8", "alpine:3.9", "alpine:3.10", "alpine:3.11",
                 "busybox:1.23", "busybox:1.24", "busybox:1.25", "busybox:1.26", "busybox:1.27"]
 
@@ -60,9 +62,11 @@ jobs:
         run: cat /tmp/${outfile}
 
       - name: Checkout Repository
+        if: (github.event_name != 'pull_request')
         uses: actions/checkout@v3
         
       - name: Push new result
+        if: (github.event_name != 'pull_request')
         env:
           outfile: ${{ env.outdir }}/${{ matrix.image }}.json
           outdir: ${{ env.outdir }}
