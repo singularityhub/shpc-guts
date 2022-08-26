@@ -44,27 +44,33 @@ jobs:
 
     name: Generate Matrix
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
       - name: Prepare Output Directory
         run: |
           outdir=$(python -c "print('${{ matrix.image }}'.replace(':', '/'))")
+          root=$(python -c "print('${{ matrix.image }}'.split('/')[0])")
           mkdir -p  ${outdir}
           echo ${outdir}
           echo "outdir=${outdir}" >> $GITHUB_ENV
+          echo "root=${root}" >> $GITHUB_ENV
       - name: Guts for ${{ matrix.image }}
         uses: singularityhub/guts/manifest@main
         with:
           image: ${{ matrix.image }}
-          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
+          outfile: /tmp/${{ env.outdir }}/${{ matrix.image }}.json
+
       - name: View Output
         env:
           outfile: ${{ env.outdir }}/${{ matrix.image }}.json
-        run: cat ${outfile}
+        run: cat /tmp/${outfile}
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         
       - name: Push new result
         env:
+          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
           outdir: ${{ env.outdir }}
+          root: ${{ env.root }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"    
@@ -74,12 +80,21 @@ jobs:
           git checkout main
 
           git branch
-          git add ${outdir}/*
+          ls
+          cp -R /tmp/${root} ${root}
+          git add ${root}/*
+          ls
+          ls ${root}
           if git diff-index --quiet HEAD --; then
               printf "No changes\n"
           else
              printf "Changes\n"
              today=$(date '+%Y-%m-%d')
              git commit -a -m "Automated deployment to add/update ${outdir}"  
-             git push origin main
+             while ! git push origin main
+             do
+                echo "Trying again..."
+                sleep $[ ( $RANDOM % 10 )  + 1 ]s
+                git pull origin main
+             done             
           fi
