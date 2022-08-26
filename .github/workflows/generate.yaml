@@ -47,7 +47,7 @@ jobs:
       - name: Prepare Output Directory
         run: |
           outdir=$(python -c "print('${{ matrix.image }}'.replace(':', '/'))")
-          root=$(python -c "print('${{ matrix.image }}'.split('/')[0])")
+          root=$(python -c "print('${outdir}'.split('/')[0])")
           mkdir -p /tmp/${outdir}
           echo ${outdir}
           echo "outdir=${outdir}" >> $GITHUB_ENV
