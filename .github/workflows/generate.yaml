@@ -67,6 +67,7 @@ jobs:
           outdir: ${{ env.outdir }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"    
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git config --global pull.rebase true
@@ -79,10 +80,5 @@ jobs:
              printf "Changes\n"
              today=$(date '+%Y-%m-%d')
              git commit -a -m "Automated deployment to add/update ${outdir}"  
-             while ! git push origin main
-             do
-                echo "Trying again..."
-                sleep $[ ( $RANDOM % 10 )  + 1 ]s
-                git pull origin main
-             done
-          fi
+             git push origin main
+          sfi
