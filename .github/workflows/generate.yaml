@@ -1,0 +1,91 @@
+name: Generate Container Guts
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron:  '0 4 * * *'
+  workflow_dispatch: 
+    inputs:
+      docker_uri:
+        description: 'Docker identifier to generate recipe for'
+        required: true
+
+jobs:
+  generate-recipe:
+    if: (inputs.docker_uri != '')
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+    name: ${{ inputs.docker_uri }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Guts for ${{ inputs.docker_uri }}
+        uses: singularityhub/guts/manifest@main
+        with:
+          image: ${{ inputs.docker_uri }}
+
+  generate-recipes:
+    if: (inputs.docker_uri == '')
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+    strategy:
+      fail-fast: false
+
+      # Here is our matrix of base images to generate
+      matrix:     
+        image: ["ubuntu:18.04", "ubuntu:20.04", "ubuntu:22.04",
+                "centos:6", "centos:7", "centos:8", 
+                "rockylinux:8.6", "rockylinux:9.0",
+                "alpine:3.7", "alpine:3.8", "alpine:3.9", "alpine:3.10", "alpine:3.11",
+                "busybox:1.23", "busybox:1.24", "busybox:1.25", "busybox:1.26", "busybox:1.27"]
+
+    name: Generate Matrix
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Prepare Output Directory
+        run: |
+          outdir=$(python -c "print('${{ matrix.image }}'.replace(':', '/'))")
+          mkdir -p  ${outdir}
+          echo ${outdir}
+          echo "outdir=${outdir}" >> $GITHUB_ENV
+      - name: Guts for ${{ matrix.image }}
+        uses: singularityhub/guts/manifest@main
+        with:
+          image: ${{ matrix.image }}
+          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
+      - name: View Output
+        env:
+          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
+        run: cat ${outfile}
+        
+      - name: Push new result
+        env:
+          outdir: ${{ env.outdir }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global pull.rebase true
+
+          git branch
+          git checkout -b main
+          git branch
+          git add ${outdir}/*
+          if git diff-index --quiet HEAD --; then
+              printf "No changes\n"
+          else
+             printf "Changes\n"
+             today=$(date '+%Y-%m-%d')
+             git commit -a -m "Automated deployment to add/update ${outdir}"  
+             while ! git push origin main
+             do
+                echo "Trying again..."
+                sleep $[ ( $RANDOM % 10 )  + 1 ]s
+                git pull origin main
+             done
+          fi
