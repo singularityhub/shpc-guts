@@ -51,8 +51,12 @@ jobs:
 
       - name: View Output
         env:
+          outputs:  ${{join(steps.guts.outputs.*, '\n')}}
           outfile: ${{ steps.guts.outputs.outfile }}
-        run: cat ${outfile}
+        run: |
+          echo $outputs
+          echo $outfile
+          cat ${outfile}
 
       - name: Prepare Dest Directory
         env:
