@@ -10,7 +10,7 @@ on:
     inputs:
       docker_uri:
         description: 'Docker identifier to generate recipe for'
-        required: false
+        required: true
 
 jobs:
   generate-recipe:
