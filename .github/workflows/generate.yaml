@@ -81,7 +81,7 @@ jobs:
 
           git branch
           ls
-          cp -R /tmp/${root} ${root}
+          cp -R /tmp/${root} .
           git add ${root}/*
           ls
           ls ${root}
