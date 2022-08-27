@@ -42,34 +42,35 @@ jobs:
 
     name: Generate Matrix
     steps:
-      - name: Prepare Output Directory
-        run: |
-          outdir=$(python -c "print('${{ matrix.image }}'.replace(':', '/'))")
-          root=$(python -c "print('${outdir}'.split('/')[0])")
-          mkdir -p /tmp/${outdir}
-          echo ${outdir}
-          echo "outdir=${outdir}" >> $GITHUB_ENV
-          echo "root=${root}" >> $GITHUB_ENV
       - name: Guts for ${{ matrix.image }}
-        uses: singularityhub/guts/manifest@main
+        uses: singularityhub/guts/manifest@add/outdir
+        id: guts
         with:
           image: ${{ matrix.image }}
-          outfile: /tmp/${{ env.outdir }}/${{ matrix.image }}.json
+          outdir: /tmp
 
       - name: View Output
         env:
-          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
-        run: cat /tmp/${outfile}
+          outfile: ${{ steps.guts.outputs.outfile }}
+        run: cat ${outfile}
+
+      - name: Prepare Dest Directory
+        env:
+          outfile: ${{ steps.guts.outputs.outfile }}
+        run: |
+          root=$(python -c "print('${outfile}'.split('/')[2])")
+          echo ${root}
+          echo "root=${root}" >> $GITHUB_ENV
 
       - name: Checkout Repository
-        if: (github.event_name != 'pull_request')
+        #if: (github.event_name != 'pull_request')
         uses: actions/checkout@v3
         
       - name: Push new result
-        if: (github.event_name != 'pull_request')
+        #if: (github.event_name != 'pull_request')
         env:
-          outfile: ${{ env.outdir }}/${{ matrix.image }}.json
-          outdir: ${{ env.outdir }}
+          dest: ${{ env.outdir }}/${{ matrix.image }}.json
+          outfile: ${{ steps.guts.outputs.outfile }}
           root: ${{ env.root }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -85,16 +86,16 @@ jobs:
           git add ${root}/*
           ls
           ls ${root}
-          if git diff-index --quiet HEAD --; then
-              printf "No changes\n"
-          else
-             printf "Changes\n"
-             today=$(date '+%Y-%m-%d')
-             git commit -a -m "Automated deployment to add/update ${outdir}"  
-             while ! git push origin main
-             do
-                echo "Trying again..."
-                sleep $[ ( $RANDOM % 10 )  + 1 ]s
-                git pull origin main
-             done             
-          fi
+          #if git diff-index --quiet HEAD --; then
+          #    printf "No changes\n"
+          #else
+          #   printf "Changes\n"
+          #   today=$(date '+%Y-%m-%d')
+          #   git commit -a -m "Automated deployment to add/update ${outdir}"  
+          #   while ! git push origin main
+          #   do
+          #      echo "Trying again..."
+          #     sleep $[ ( $RANDOM % 10 )  + 1 ]s
+          #      git pull origin main
+          #   done             
+          #fi
