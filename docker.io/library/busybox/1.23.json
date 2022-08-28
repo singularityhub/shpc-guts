@@ -1,5 +1,5 @@
 {
-    "busybox:1.23": {
+    "docker.io/library/busybox:1.23": {
         "paths": {},
         "fs": [
             "/.dockerenv",
