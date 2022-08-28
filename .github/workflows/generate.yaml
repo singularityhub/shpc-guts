@@ -21,7 +21,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Guts for ${{ inputs.docker_uri }}
-        uses: singularityhub/guts/manifest@main
+        uses: singularityhub/guts/action/manifest@main
         with:
           image: ${{ inputs.docker_uri }}
 
@@ -42,11 +42,15 @@ jobs:
 
     name: Generate Matrix
     steps:
+      - name: Install Guts
+        run: pip install git+https://github.com/singularityhub/guts@add/diff
+
       - name: Guts for ${{ matrix.image }}
-        uses: singularityhub/guts/manifest@main
+        uses: singularityhub/guts/action/manifest@add/diff
         id: guts
         with:
           image: ${{ matrix.image }}
+          include: paths fs
           outdir: /tmp
 
       - name: View Output
