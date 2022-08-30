@@ -2,8 +2,7 @@
     "docker.io/library/busybox:1.26": {
         "paths": {
             "/usr/bin": [],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
+            "/usr/sbin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -380,8 +379,9 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/sbin": [],
-            "/sbin": []
+            "/usr/local/sbin": [],
+            "/sbin": [],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
@@ -768,6 +768,12 @@
             "/etc/passwd",
             "/etc/resolv.conf",
             "/etc/shadow"
+        ],
+        "cmd": [
+            "/bin/sh",
+            "-c",
+            "#(nop) ",
+            "CMD [\"sh\"]"
         ]
     }
 }
