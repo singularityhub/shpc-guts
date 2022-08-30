@@ -1,6 +1,9 @@
 {
     "docker.io/library/ubuntu:20.04": {
         "paths": {
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/bin": [
                 "[",
                 "addpart",
@@ -608,9 +611,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/local/bin": [],
             "/sbin": [
@@ -3543,6 +3543,12 @@
             "/var/log/faillog",
             "/var/log/lastlog",
             "/var/log/wtmp"
+        ],
+        "cmd": [
+            "/bin/sh",
+            "-c",
+            "#(nop) ",
+            "CMD [\"bash\"]"
         ]
     }
 }
