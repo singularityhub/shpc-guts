@@ -2,7 +2,6 @@
     "docker.io/library/alpine:3.9": {
         "paths": {
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -66,6 +65,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
