@@ -119,6 +119,7 @@
                 "zramctl"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -991,8 +992,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
