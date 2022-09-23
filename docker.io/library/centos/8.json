@@ -1006,6 +1006,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -1165,7 +1166,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": []
         },
         "fs": [
