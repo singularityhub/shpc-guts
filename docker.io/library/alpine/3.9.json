@@ -34,8 +34,8 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
