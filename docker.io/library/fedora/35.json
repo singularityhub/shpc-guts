@@ -51,7 +51,7 @@
                 "visudo",
                 "zic"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -280,8 +280,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -560,7 +560,7 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": []
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
