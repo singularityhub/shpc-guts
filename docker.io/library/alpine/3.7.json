@@ -1,6 +1,8 @@
 {
     "docker.io/library/alpine:3.7": {
         "paths": {
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -261,8 +263,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
