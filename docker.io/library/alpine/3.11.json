@@ -180,7 +180,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -265,6 +264,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
