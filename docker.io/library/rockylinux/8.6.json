@@ -379,7 +379,8 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/local/bin": [],
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -875,7 +876,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -991,8 +992,7 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
