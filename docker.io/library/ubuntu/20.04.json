@@ -1,6 +1,7 @@
 {
     "docker.io/library/ubuntu:20.04": {
         "paths": {
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -305,6 +306,9 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -432,7 +436,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "add-shell",
                 "addgroup",
@@ -863,9 +866,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
