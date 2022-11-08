@@ -1,7 +1,7 @@
 {
     "docker.io/library/rockylinux:8.6": {
         "paths": {
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -498,7 +498,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
