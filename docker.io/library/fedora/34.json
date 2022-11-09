@@ -300,6 +300,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -599,7 +600,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -692,7 +692,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -784,7 +783,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
