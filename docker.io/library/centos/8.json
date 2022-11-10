@@ -160,7 +160,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
@@ -1166,7 +1165,8 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
