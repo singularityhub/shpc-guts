@@ -34,6 +34,7 @@ jobs:
       # Here is our matrix of base images to generate
       matrix:     
         image: ["ubuntu:18.04", "ubuntu:20.04", "ubuntu:22.04",
+                "debian:11", "debian:10", "debian:9", 
                 "centos:6", "centos:7", "centos:8", 
                 "rockylinux:8.6", "rockylinux:9.0",
                 "fedora:34", "fedora:35", "fedora:36",
