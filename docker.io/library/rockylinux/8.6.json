@@ -379,8 +379,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addr2line",
