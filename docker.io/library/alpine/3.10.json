@@ -2,7 +2,6 @@
     "docker.io/library/alpine:3.10": {
         "paths": {
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -244,6 +243,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
