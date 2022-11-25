@@ -596,6 +596,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addr2line",
@@ -967,8 +968,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
