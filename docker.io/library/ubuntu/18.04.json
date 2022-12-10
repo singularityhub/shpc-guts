@@ -1,7 +1,6 @@
 {
     "docker.io/library/ubuntu:18.04": {
         "paths": {
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -126,6 +125,9 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -432,9 +434,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ]
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
