@@ -1,6 +1,8 @@
 {
     "docker.io/library/alpine:3.8": {
         "paths": {
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -324,9 +326,7 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
