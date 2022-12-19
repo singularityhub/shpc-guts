@@ -291,6 +291,7 @@
                 "znew",
                 "zsoelim"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -463,8 +464,7 @@
                 "view",
                 "ypdomainname",
                 "zcat"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
