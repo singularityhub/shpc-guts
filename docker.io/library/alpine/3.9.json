@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.9": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -209,7 +208,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -294,6 +292,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -326,7 +325,8 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
