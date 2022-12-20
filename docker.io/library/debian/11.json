@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
-            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -123,6 +122,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
