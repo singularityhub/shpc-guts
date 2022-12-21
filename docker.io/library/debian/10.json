@@ -1,6 +1,8 @@
 {
     "docker.io/library/debian:10": {
         "paths": {
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -267,8 +269,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
