@@ -379,8 +379,8 @@
                 "zcat",
                 "zcip"
             ],
-            "/sbin": [],
             "/usr/bin": [],
+            "/sbin": [],
             "/usr/sbin": []
         },
         "fs": [
