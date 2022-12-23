@@ -1,9 +1,6 @@
 {
     "docker.io/library/ubuntu:22.04": {
         "paths": {
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
             "/bin": [
                 "[",
                 "addpart",
@@ -300,8 +297,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -421,6 +417,10 @@
                 "wipefs",
                 "zic",
                 "zramctl"
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [
+                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -718,7 +718,7 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
