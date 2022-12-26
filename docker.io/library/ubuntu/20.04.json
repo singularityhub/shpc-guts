@@ -305,8 +305,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -432,9 +431,6 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/bin": [
                 "[",
@@ -740,7 +736,7 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -866,6 +862,10 @@
                 "wipefs",
                 "zic",
                 "zramctl"
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [
+                "unminimize"
             ]
         },
         "fs": [
