@@ -179,7 +179,7 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -264,7 +264,7 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
