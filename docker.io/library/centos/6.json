@@ -291,7 +291,6 @@
                 "znew",
                 "zsoelim"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -397,7 +396,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -464,7 +462,9 @@
                 "vipw",
                 "zdump",
                 "zic"
-            ]
+            ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
