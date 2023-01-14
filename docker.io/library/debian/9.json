@@ -290,7 +290,6 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -362,6 +361,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
