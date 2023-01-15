@@ -34,7 +34,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -328,7 +327,8 @@
                 "xz",
                 "xzcat",
                 "yes"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
