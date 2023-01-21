@@ -390,8 +390,8 @@
                 "zcip"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [],
+            "/usr/local/sbin": [],
             "/sbin": [],
             "/usr/bin": []
         },
