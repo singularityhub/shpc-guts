@@ -230,6 +230,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -559,8 +560,7 @@
                 "vipw",
                 "visudo",
                 "zic"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
