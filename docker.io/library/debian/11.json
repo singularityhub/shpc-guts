@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
@@ -194,7 +195,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
