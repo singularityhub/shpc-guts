@@ -2,7 +2,7 @@
     "docker.io/library/rockylinux:9.0": {
         "paths": {
             "/usr/local/sbin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -486,7 +486,7 @@
                 "zramctl"
             ],
             "/usr/local/bin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
