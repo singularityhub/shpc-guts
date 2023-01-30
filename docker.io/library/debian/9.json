@@ -210,6 +210,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -289,6 +290,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -360,7 +362,6 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -418,8 +419,7 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
