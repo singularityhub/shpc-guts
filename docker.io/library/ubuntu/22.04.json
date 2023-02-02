@@ -1,7 +1,7 @@
 {
     "docker.io/library/ubuntu:22.04": {
         "paths": {
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -125,7 +125,7 @@
             "/usr/local/sbin": [
                 "unminimize"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
