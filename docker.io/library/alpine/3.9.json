@@ -149,7 +149,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -326,7 +325,8 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
