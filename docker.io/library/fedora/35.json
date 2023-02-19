@@ -51,7 +51,8 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -330,7 +331,7 @@
                 "visudo",
                 "zic"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -559,7 +560,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": []
         },
         "fs": [
