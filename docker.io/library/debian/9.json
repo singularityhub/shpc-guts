@@ -1,8 +1,6 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -212,6 +210,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -419,7 +418,8 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
