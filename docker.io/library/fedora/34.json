@@ -1,8 +1,7 @@
 {
     "docker.io/library/fedora:34": {
         "paths": {
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -94,8 +93,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -394,7 +393,7 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -486,7 +485,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/local/sbin": [],
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
