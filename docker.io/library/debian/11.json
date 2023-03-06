@@ -325,7 +325,7 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -397,7 +397,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": []
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
