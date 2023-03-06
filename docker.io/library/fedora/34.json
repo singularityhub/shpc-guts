@@ -93,7 +93,9 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -484,7 +486,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -782,9 +784,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
