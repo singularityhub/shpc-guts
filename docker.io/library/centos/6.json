@@ -40,7 +40,7 @@
                 "unix_update",
                 "weak-modules"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -107,6 +107,7 @@
                 "ypdomainname",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
@@ -463,8 +464,7 @@
                 "vipw",
                 "zdump",
                 "zic"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
