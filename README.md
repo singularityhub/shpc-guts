@@ -1,5 +1,7 @@
 # Singularity Registry Container Guts!
 
+[![DOI](https://zenodo.org/badge/529092526.svg)](https://zenodo.org/badge/latestdoi/529092526)
+
 > Let's get some *guts* for PATHs inside containers! 🤓
 
 The goal of this repository is to provide transparency for container guts, or
