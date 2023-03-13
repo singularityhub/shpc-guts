@@ -209,6 +209,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -326,7 +327,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": []
         },
         "fs": [
