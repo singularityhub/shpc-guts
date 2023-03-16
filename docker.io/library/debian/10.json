@@ -286,6 +286,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -344,7 +345,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/bin": [
                 "bash",
