@@ -180,8 +180,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -266,6 +264,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -328,7 +327,8 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
