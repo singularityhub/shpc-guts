@@ -425,6 +425,7 @@
                 "znew"
             ],
             "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "addr2line",
@@ -1165,8 +1166,7 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
