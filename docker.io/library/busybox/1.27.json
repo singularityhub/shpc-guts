@@ -4,6 +4,7 @@
             "/usr/local/bin": [],
             "/usr/bin": [],
             "/sbin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -392,7 +393,6 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": []
         },
         "fs": [
