@@ -64,7 +64,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/bin": [
                 "arch",
@@ -294,6 +293,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
