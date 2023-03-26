@@ -209,7 +209,7 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -345,7 +345,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
