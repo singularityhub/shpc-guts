@@ -4,7 +4,8 @@
             "/usr/local/sbin": [
                 "unminimize"
             ],
-            "/usr/sbin": [
+            "/usr/local/bin": [],
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -435,8 +436,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
