@@ -40,6 +40,7 @@
                 "unix_update",
                 "weak-modules"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
@@ -330,7 +331,6 @@
                 "znew",
                 "zsoelim"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -464,7 +464,7 @@
                 "zdump",
                 "zic"
             ],
-            "/usr/local/sbin": []
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
