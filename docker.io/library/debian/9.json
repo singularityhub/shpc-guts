@@ -2,6 +2,7 @@
     "docker.io/library/debian:9": {
         "paths": {
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -131,7 +132,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
