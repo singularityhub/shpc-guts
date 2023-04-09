@@ -59,7 +59,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -210,6 +209,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
