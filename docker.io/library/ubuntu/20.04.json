@@ -308,8 +308,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -436,6 +435,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -740,7 +740,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
