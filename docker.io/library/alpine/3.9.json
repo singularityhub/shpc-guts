@@ -145,8 +145,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -231,6 +229,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -294,6 +293,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
