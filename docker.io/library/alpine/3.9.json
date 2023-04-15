@@ -1,6 +1,39 @@
 {
     "docker.io/library/alpine:3.9": {
         "paths": {
+            "/usr/sbin": [
+                "add-shell",
+                "addgroup",
+                "adduser",
+                "arping",
+                "brctl",
+                "chpasswd",
+                "chroot",
+                "crond",
+                "delgroup",
+                "deluser",
+                "ether-wake",
+                "fbset",
+                "fdformat",
+                "killall5",
+                "loadfont",
+                "lspci",
+                "nanddump",
+                "nandwrite",
+                "nbd-client",
+                "ntpd",
+                "partprobe",
+                "powertop",
+                "rdate",
+                "rdev",
+                "readahead",
+                "readprofile",
+                "remove-shell",
+                "rfkill",
+                "sendmail",
+                "setfont",
+                "setlogcons"
+            ],
             "/bin": [
                 "arch",
                 "ash",
@@ -85,6 +118,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -229,40 +263,7 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
-                "add-shell",
-                "addgroup",
-                "adduser",
-                "arping",
-                "brctl",
-                "chpasswd",
-                "chroot",
-                "crond",
-                "delgroup",
-                "deluser",
-                "ether-wake",
-                "fbset",
-                "fdformat",
-                "killall5",
-                "loadfont",
-                "lspci",
-                "nanddump",
-                "nandwrite",
-                "nbd-client",
-                "ntpd",
-                "partprobe",
-                "powertop",
-                "rdate",
-                "rdev",
-                "readahead",
-                "readprofile",
-                "remove-shell",
-                "rfkill",
-                "sendmail",
-                "setfont",
-                "setlogcons"
-            ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -325,8 +326,7 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
