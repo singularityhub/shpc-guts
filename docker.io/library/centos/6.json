@@ -1,6 +1,8 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -106,7 +108,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -174,7 +175,6 @@
                 "zdump",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
