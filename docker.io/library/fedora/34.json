@@ -1,8 +1,6 @@
 {
     "docker.io/library/fedora:34": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -187,6 +185,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -784,7 +783,8 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
