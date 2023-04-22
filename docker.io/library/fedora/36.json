@@ -312,6 +312,8 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -563,7 +565,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -623,8 +624,7 @@
                 "vipw",
                 "visudo",
                 "zic"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
