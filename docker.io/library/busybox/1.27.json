@@ -389,11 +389,11 @@
                 "zcat",
                 "zcip"
             ],
-            "/sbin": [],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [],
-            "/usr/bin": []
+            "/sbin": [],
+            "/usr/bin": [],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
