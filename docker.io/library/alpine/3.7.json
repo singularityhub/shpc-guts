@@ -35,7 +35,6 @@
                 "setlogcons"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/bin": [
                 "ash",
                 "base64",
@@ -182,6 +181,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
