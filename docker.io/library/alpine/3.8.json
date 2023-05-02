@@ -148,7 +148,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -182,6 +181,8 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -325,8 +326,7 @@
                 "xxd",
                 "xzcat",
                 "yes"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
