@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -361,6 +360,8 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -418,8 +419,7 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
