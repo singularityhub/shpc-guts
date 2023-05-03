@@ -1,6 +1,7 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -67,7 +68,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
