@@ -377,10 +377,10 @@
                 "zcat",
                 "zcip"
             ],
+            "/usr/sbin": [],
             "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/sbin": [],
-            "/usr/sbin": [],
             "/usr/bin": []
         },
         "fs": [
