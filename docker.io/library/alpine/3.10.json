@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.10": {
         "paths": {
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/bin": [
                 "arch",
@@ -327,7 +326,8 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
