@@ -1,7 +1,6 @@
 {
     "docker.io/library/ubuntu:22.04": {
         "paths": {
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -540,9 +539,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -838,6 +835,9 @@
                 "zless",
                 "zmore",
                 "znew"
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
             ]
         },
         "fs": [
