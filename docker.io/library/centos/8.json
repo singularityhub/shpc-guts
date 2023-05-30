@@ -1,7 +1,7 @@
 {
     "docker.io/library/centos:8": {
         "paths": {
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -424,7 +424,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -584,7 +583,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -744,7 +742,9 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
