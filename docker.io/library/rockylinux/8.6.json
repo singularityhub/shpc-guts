@@ -496,6 +496,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
@@ -991,8 +992,7 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
