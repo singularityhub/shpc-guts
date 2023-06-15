@@ -418,6 +418,9 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/sbin": [
                 "add-shell",
                 "addgroup",
@@ -539,6 +542,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -834,10 +838,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
