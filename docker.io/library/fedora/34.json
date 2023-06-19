@@ -301,6 +301,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -600,7 +601,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "addpart",
