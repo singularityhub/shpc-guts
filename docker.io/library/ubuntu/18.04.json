@@ -362,6 +362,9 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
@@ -431,9 +434,6 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
