@@ -149,7 +149,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -326,7 +325,8 @@
                 "xxd",
                 "xzcat",
                 "yes"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
