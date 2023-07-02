@@ -1,8 +1,6 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -82,6 +80,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -349,6 +348,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
