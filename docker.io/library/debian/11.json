@@ -1,8 +1,6 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -206,6 +204,8 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
