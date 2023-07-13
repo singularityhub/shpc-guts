@@ -243,6 +243,9 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -540,9 +543,6 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
             "/bin": [
                 "[",
                 "addpart",
