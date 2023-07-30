@@ -3,8 +3,8 @@
         "paths": {
             "/sbin": [],
             "/usr/local/sbin": [],
-            "/usr/bin": [],
             "/usr/local/bin": [],
+            "/usr/bin": [],
             "/usr/sbin": [],
             "/bin": [
                 "[",
