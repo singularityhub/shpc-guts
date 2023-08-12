@@ -59,7 +59,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -131,7 +130,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -195,6 +193,8 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
