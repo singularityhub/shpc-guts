@@ -128,6 +128,9 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -862,9 +865,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/local/bin": []
         },
