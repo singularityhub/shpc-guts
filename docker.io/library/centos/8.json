@@ -425,7 +425,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/sbin": [
+            "/usr/local/bin": [],
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -584,8 +585,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
