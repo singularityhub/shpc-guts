@@ -1,7 +1,9 @@
 {
     "docker.io/library/ubuntu:18.04": {
         "paths": {
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -70,9 +72,6 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -434,7 +433,8 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
