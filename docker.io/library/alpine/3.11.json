@@ -147,6 +147,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/bin": [
                 "arch",
@@ -265,7 +266,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
