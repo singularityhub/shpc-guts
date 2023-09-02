@@ -326,6 +326,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -396,8 +397,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
