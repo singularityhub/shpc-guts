@@ -146,7 +146,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -231,6 +230,8 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -326,8 +327,7 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
