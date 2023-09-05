@@ -19,7 +19,7 @@ jobs:
     name: ${{ inputs.docker_uri }}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Guts for ${{ inputs.docker_uri }}
         uses: singularityhub/guts/action/manifest@main
         with:
@@ -71,7 +71,7 @@ jobs:
 
       - name: Checkout Repository
         if: (github.event_name != 'pull_request')
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         
       - name: Push new result
         if: (github.event_name != 'pull_request')
