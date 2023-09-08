@@ -742,6 +742,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addr2line",
@@ -1203,7 +1204,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": []
         },
         "fs": [
