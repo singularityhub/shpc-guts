@@ -70,6 +70,9 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/bin": [
                 "bash",
                 "bunzip2",
@@ -156,9 +159,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/sbin": [
                 "add-shell",
