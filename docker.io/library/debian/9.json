@@ -80,7 +80,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -290,6 +289,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
