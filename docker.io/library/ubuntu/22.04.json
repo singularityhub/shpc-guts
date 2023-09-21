@@ -418,6 +418,10 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "add-shell",
                 "addgroup",
@@ -538,9 +542,6 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -837,8 +838,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
