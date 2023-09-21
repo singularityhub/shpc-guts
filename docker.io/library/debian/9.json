@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -269,7 +270,6 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
