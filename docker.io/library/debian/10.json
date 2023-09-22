@@ -155,6 +155,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -364,7 +365,6 @@
                 "zdump"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
