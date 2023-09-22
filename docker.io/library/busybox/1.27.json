@@ -3,9 +3,9 @@
         "paths": {
             "/usr/local/bin": [],
             "/sbin": [],
-            "/usr/sbin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [],
+            "/usr/local/sbin": [],
+            "/usr/sbin": [],
             "/bin": [
                 "[",
                 "[[",
