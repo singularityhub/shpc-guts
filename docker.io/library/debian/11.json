@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/bin": [
                 "bash",
@@ -397,7 +396,8 @@
                 "xargs",
                 "yes",
                 "zdump"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
