@@ -59,6 +59,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -131,7 +132,6 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
