@@ -389,10 +389,10 @@
                 "zcat",
                 "zcip"
             ],
+            "/usr/local/bin": [],
+            "/usr/bin": [],
             "/sbin": [],
             "/usr/local/sbin": [],
-            "/usr/bin": [],
-            "/usr/local/bin": [],
             "/usr/sbin": []
         },
         "fs": [
