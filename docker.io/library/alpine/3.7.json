@@ -34,7 +34,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "ash",
                 "base64",
@@ -118,7 +117,7 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -182,6 +181,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
