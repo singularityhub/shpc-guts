@@ -358,7 +358,6 @@
                 "zdump",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -398,6 +397,8 @@
                 "unix_update",
                 "weak-modules"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -463,8 +464,7 @@
                 "view",
                 "ypdomainname",
                 "zcat"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
