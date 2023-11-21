@@ -2,6 +2,7 @@
     "docker.io/library/centos:6": {
         "paths": {
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -68,7 +69,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
