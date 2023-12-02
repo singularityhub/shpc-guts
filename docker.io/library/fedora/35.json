@@ -51,6 +51,7 @@
                 "visudo",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -281,7 +282,6 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
