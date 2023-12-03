@@ -300,8 +300,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
