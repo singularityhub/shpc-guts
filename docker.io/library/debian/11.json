@@ -194,7 +194,6 @@
                 "zramctl"
             ],
             "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -397,7 +396,8 @@
                 "xargs",
                 "yes",
                 "zdump"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
