@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.9": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -293,6 +292,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
