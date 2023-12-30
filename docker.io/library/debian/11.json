@@ -205,6 +205,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -334,7 +335,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
