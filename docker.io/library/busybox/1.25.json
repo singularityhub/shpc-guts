@@ -4,6 +4,7 @@
             "/usr/local/bin": [],
             "/sbin": [],
             "/usr/sbin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -376,8 +377,7 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/bin": [],
-            "/usr/local/sbin": []
+            "/usr/bin": []
         },
         "fs": [
             "/.dockerenv",
