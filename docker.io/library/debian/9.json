@@ -2,7 +2,6 @@
     "docker.io/library/debian:9": {
         "paths": {
             "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -211,6 +210,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
