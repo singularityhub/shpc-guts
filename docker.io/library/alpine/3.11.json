@@ -182,7 +182,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -328,7 +327,8 @@
                 "xz",
                 "xzcat",
                 "yes"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
