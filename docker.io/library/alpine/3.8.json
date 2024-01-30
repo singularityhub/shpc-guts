@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.8": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -146,6 +145,8 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -325,8 +326,7 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
