@@ -1,6 +1,8 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -68,7 +70,6 @@
                 "zdump",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
@@ -359,7 +360,6 @@
                 "znew",
                 "zsoelim"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "awk",
