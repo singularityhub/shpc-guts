@@ -88,6 +88,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -143,6 +144,9 @@
                 "vigr",
                 "vipw",
                 "zic"
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
             ],
             "/sbin": [
                 "agetty",
@@ -430,11 +434,7 @@
                 "xargs",
                 "yes",
                 "zdump"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
