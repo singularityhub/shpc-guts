@@ -107,6 +107,7 @@
                 "unix_update",
                 "weak-modules"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -173,7 +174,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
