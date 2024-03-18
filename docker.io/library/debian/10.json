@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:10": {
         "paths": {
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -59,7 +60,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -268,7 +268,7 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
