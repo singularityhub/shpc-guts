@@ -70,7 +70,6 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "bunzip2",
@@ -157,9 +156,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -434,7 +430,11 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ]
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
