@@ -228,7 +228,7 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -325,7 +325,7 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/sbin": []
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
