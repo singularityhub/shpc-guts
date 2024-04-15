@@ -419,6 +419,9 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -539,9 +542,6 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/bin": [
                 "[",
