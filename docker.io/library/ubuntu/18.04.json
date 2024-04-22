@@ -70,6 +70,9 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -126,6 +129,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -430,10 +434,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
