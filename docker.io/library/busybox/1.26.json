@@ -3,7 +3,7 @@
         "paths": {
             "/usr/bin": [],
             "/usr/local/sbin": [],
-            "/sbin": [],
+            "/usr/sbin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -380,7 +380,7 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/sbin": [],
+            "/sbin": [],
             "/usr/local/bin": []
         },
         "fs": [
