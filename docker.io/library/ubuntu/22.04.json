@@ -1,7 +1,7 @@
 {
     "docker.io/library/ubuntu:22.04": {
         "paths": {
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -123,7 +123,7 @@
                 "zramctl"
             ],
             "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -243,6 +243,9 @@
                 "wipefs",
                 "zic",
                 "zramctl"
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
             ],
             "/usr/bin": [
                 "[",
@@ -539,9 +542,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/bin": [
                 "[",
