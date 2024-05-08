@@ -584,7 +584,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -744,6 +743,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addr2line",
