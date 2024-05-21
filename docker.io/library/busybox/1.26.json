@@ -3,7 +3,6 @@
         "paths": {
             "/usr/sbin": [],
             "/usr/bin": [],
-            "/sbin": [],
             "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/bin": [
@@ -381,7 +380,8 @@
                 "yes",
                 "zcat",
                 "zcip"
-            ]
+            ],
+            "/sbin": []
         },
         "fs": [
             "/.dockerenv",
