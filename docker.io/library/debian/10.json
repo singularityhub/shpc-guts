@@ -267,6 +267,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
@@ -345,7 +346,6 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
