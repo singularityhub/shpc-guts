@@ -57,6 +57,9 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -431,9 +434,6 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
