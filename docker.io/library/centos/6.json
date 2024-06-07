@@ -67,7 +67,7 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addftinfo",
@@ -464,7 +464,7 @@
                 "unix_update",
                 "weak-modules"
             ],
-            "/usr/local/bin": []
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
