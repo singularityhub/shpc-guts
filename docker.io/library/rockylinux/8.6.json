@@ -379,8 +379,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -497,7 +496,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/sbin": [
+            "/usr/local/bin": [],
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -8842,12 +8842,6 @@
             "/var/log/btmp",
             "/var/log/lastlog",
             "/var/log/wtmp"
-        ],
-        "cmd": [
-            "/bin/sh",
-            "-c",
-            "#(nop) ",
-            "CMD [\"/bin/bash\"]"
         ]
     }
 }
