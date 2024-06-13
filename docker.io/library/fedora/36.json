@@ -1,7 +1,6 @@
 {
     "docker.io/library/fedora:36": {
         "paths": {
-            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -62,7 +61,7 @@
                 "visudo",
                 "zic"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -314,6 +313,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -374,7 +374,7 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -8162,15 +8162,6 @@
             "/var/log/anaconda/program.log",
             "/var/log/anaconda/storage.log",
             "/var/log/anaconda/syslog"
-        ],
-        "cmd": [
-            "/bin/sh",
-            "-c",
-            "#(nop) ",
-            "CMD [\"/bin/bash\"]"
-        ],
-        "labels": {
-            "maintainer": "Clement Verna <cverna@fedoraproject.org>"
-        }
+        ]
     }
 }
