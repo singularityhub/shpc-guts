@@ -1,7 +1,8 @@
 {
     "docker.io/library/ubuntu:24.04": {
         "paths": {
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -299,8 +300,10 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/bin": [
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -833,9 +836,6 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ]
         },
         "fs": [
