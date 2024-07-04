@@ -294,6 +294,7 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
@@ -323,8 +324,7 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
