@@ -407,10 +407,10 @@
                 "zcat",
                 "zcip"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "env"
             ],
-            "/usr/local/sbin": [],
             "/sbin": []
         },
         "fs": [
