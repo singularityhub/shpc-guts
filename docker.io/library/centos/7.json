@@ -142,7 +142,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -603,7 +603,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -1203,8 +1204,7 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
