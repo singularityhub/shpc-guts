@@ -1,7 +1,7 @@
 {
     "docker.io/library/centos:8": {
         "paths": {
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -1008,7 +1008,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
