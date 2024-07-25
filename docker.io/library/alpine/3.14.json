@@ -94,6 +94,7 @@
                 "setlogcons"
             ],
             "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -318,8 +319,7 @@
                 "usleep",
                 "watch",
                 "zcat"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
