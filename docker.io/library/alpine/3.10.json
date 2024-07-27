@@ -85,6 +85,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -293,8 +294,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -327,7 +326,8 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
