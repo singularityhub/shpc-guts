@@ -1,7 +1,10 @@
 {
     "docker.io/library/ubuntu:24.04": {
         "paths": {
-            "/usr/bin": [
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -299,6 +302,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "add-shell",
                 "agetty",
@@ -417,10 +421,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "agetty",
@@ -539,7 +539,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
