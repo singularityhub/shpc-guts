@@ -403,10 +403,10 @@
                 "zcat",
                 "zcip"
             ],
-            "/sbin": [],
             "/usr/local/sbin": [],
-            "/usr/sbin": [],
+            "/sbin": [],
             "/usr/bin": [],
+            "/usr/sbin": [],
             "/usr/local/bin": []
         },
         "fs": [
