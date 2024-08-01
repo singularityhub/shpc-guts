@@ -179,6 +179,7 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -242,7 +243,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
