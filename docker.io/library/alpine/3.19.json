@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.19": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -31,7 +30,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -240,6 +238,7 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -323,7 +322,8 @@
                 "usleep",
                 "watch",
                 "zcat"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
