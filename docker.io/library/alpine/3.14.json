@@ -143,6 +143,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -318,7 +319,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": []
         },
         "fs": [
