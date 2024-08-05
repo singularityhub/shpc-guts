@@ -407,8 +407,8 @@
             "/usr/sbin": [],
             "/usr/bin": [],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
-            "/sbin": []
+            "/sbin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
