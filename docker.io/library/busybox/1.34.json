@@ -408,9 +408,9 @@
             "/usr/bin": [
                 "env"
             ],
-            "/sbin": [],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
+            "/sbin": [],
             "/usr/sbin": []
         },
         "fs": [
