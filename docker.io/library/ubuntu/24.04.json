@@ -597,7 +597,7 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "agetty",
                 "badblocks",
@@ -715,8 +715,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "agetty",
                 "badblocks",
@@ -836,7 +835,8 @@
             ],
             "/usr/local/sbin": [
                 "unminimize"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
