@@ -267,6 +267,8 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -338,8 +340,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
