@@ -121,7 +121,6 @@
                 "zramctl"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -794,7 +793,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
