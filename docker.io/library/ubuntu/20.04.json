@@ -305,8 +305,10 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -433,10 +435,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -866,7 +865,8 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
