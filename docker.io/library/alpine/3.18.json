@@ -1,8 +1,6 @@
 {
     "docker.io/library/alpine:3.18": {
         "paths": {
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -88,6 +86,8 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
