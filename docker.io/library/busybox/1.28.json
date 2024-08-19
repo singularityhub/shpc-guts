@@ -397,9 +397,9 @@
             ],
             "/usr/local/sbin": [],
             "/usr/bin": [],
+            "/usr/sbin": [],
             "/usr/local/bin": [],
-            "/sbin": [],
-            "/usr/sbin": []
+            "/sbin": []
         },
         "fs": [
             "/.dockerenv",
