@@ -147,7 +147,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -245,6 +244,7 @@
                 "watchdog"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
