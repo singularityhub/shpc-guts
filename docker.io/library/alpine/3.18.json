@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.18": {
         "paths": {
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -86,6 +85,35 @@
                 "usleep",
                 "watch",
                 "zcat"
+            ],
+            "/usr/sbin": [
+                "add-shell",
+                "addgroup",
+                "adduser",
+                "arping",
+                "brctl",
+                "chpasswd",
+                "chroot",
+                "crond",
+                "delgroup",
+                "deluser",
+                "ether-wake",
+                "fbset",
+                "killall5",
+                "loadfont",
+                "nanddump",
+                "nandwrite",
+                "nbd-client",
+                "ntpd",
+                "partprobe",
+                "rdate",
+                "rdev",
+                "readahead",
+                "remove-shell",
+                "rfkill",
+                "sendmail",
+                "setfont",
+                "setlogcons"
             ],
             "/usr/bin": [
                 "[",
@@ -232,36 +260,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/sbin": [
-                "add-shell",
-                "addgroup",
-                "adduser",
-                "arping",
-                "brctl",
-                "chpasswd",
-                "chroot",
-                "crond",
-                "delgroup",
-                "deluser",
-                "ether-wake",
-                "fbset",
-                "killall5",
-                "loadfont",
-                "nanddump",
-                "nandwrite",
-                "nbd-client",
-                "ntpd",
-                "partprobe",
-                "rdate",
-                "rdev",
-                "readahead",
-                "remove-shell",
-                "rfkill",
-                "sendmail",
-                "setfont",
-                "setlogcons"
-            ],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -324,7 +322,9 @@
                 "vconfig",
                 "watchdog",
                 "zcip"
-            ]
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
