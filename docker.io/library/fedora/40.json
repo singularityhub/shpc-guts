@@ -52,6 +52,7 @@
                 "zic"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -102,7 +103,7 @@
                 "visudo",
                 "zic"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -368,8 +369,7 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/usr/local/bin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
