@@ -1,6 +1,7 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -358,6 +359,7 @@
                 "znew",
                 "zsoelim"
             ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -397,7 +399,6 @@
                 "unix_update",
                 "weak-modules"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -463,8 +464,7 @@
                 "view",
                 "ypdomainname",
                 "zcat"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
