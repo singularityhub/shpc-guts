@@ -4,6 +4,9 @@
             "/usr/bin": [
                 "env"
             ],
+            "/usr/sbin": [],
+            "/sbin": [],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/bin": [
                 "[",
@@ -408,10 +411,7 @@
                 "yes",
                 "zcat",
                 "zcip"
-            ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [],
-            "/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
