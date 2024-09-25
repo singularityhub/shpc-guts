@@ -68,7 +68,6 @@
                 "zdump",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -135,7 +134,6 @@
                 "ypdomainname",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -464,7 +462,9 @@
                 "zmore",
                 "znew",
                 "zsoelim"
-            ]
+            ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
