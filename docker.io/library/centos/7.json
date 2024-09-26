@@ -1,7 +1,7 @@
 {
     "docker.io/library/centos:7": {
         "paths": {
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -743,7 +743,7 @@
                 "zramctl"
             ],
             "/usr/local/bin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
