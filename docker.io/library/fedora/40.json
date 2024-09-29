@@ -101,7 +101,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "alias",
@@ -368,6 +367,7 @@
                 "zstdless",
                 "zstdmt"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
