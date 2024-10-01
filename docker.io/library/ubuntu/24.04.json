@@ -119,6 +119,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "add-shell",
                 "agetty",
@@ -237,7 +238,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
