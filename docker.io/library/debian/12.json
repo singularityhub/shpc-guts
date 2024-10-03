@@ -674,6 +674,8 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "add-shell",
                 "addgroup",
@@ -792,9 +794,7 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
