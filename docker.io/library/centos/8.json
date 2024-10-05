@@ -1,7 +1,8 @@
 {
     "docker.io/library/centos:8": {
         "paths": {
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -424,9 +425,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
