@@ -405,10 +405,10 @@
                 "zcip"
             ],
             "/usr/local/sbin": [],
-            "/usr/bin": [],
             "/usr/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [],
-            "/usr/local/bin": []
+            "/usr/bin": []
         },
         "fs": [
             "/.dockerenv",
