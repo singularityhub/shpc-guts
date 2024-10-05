@@ -1,9 +1,7 @@
 {
     "docker.io/library/debian:12": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -280,7 +278,8 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -794,7 +793,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
