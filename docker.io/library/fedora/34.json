@@ -93,7 +93,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -392,6 +392,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -485,8 +486,7 @@
                 "zramctl"
             ],
             "/usr/local/sbin": [],
-            "/usr/local/bin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
