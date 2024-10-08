@@ -1,7 +1,6 @@
 {
     "docker.io/library/ubuntu:22.04": {
         "paths": {
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -838,7 +837,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
