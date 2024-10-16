@@ -50,7 +50,7 @@ jobs:
     name: Generate Matrix
     steps:
       - name: Install Guts
-        run: pip install git+https://github.com/singularityhub/guts@main
+        run: pip install --break-system-packages git+https://github.com/singularityhub/guts@main
 
       - name: Guts for ${{ matrix.image }}
         uses: singularityhub/guts/action/manifest@main
