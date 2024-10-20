@@ -93,6 +93,8 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -176,8 +178,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
