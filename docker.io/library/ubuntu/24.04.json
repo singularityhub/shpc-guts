@@ -119,7 +119,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -716,6 +715,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "add-shell",
