@@ -406,9 +406,9 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/local/bin": [],
-            "/sbin": [],
             "/usr/sbin": [],
+            "/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "env"
             ]
