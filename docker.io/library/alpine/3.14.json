@@ -172,6 +172,7 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -318,8 +319,7 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
