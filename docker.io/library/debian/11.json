@@ -1,7 +1,7 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -136,6 +136,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -339,7 +340,6 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
