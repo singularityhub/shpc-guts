@@ -119,9 +119,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -537,7 +535,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/local/sbin": [],
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -834,7 +833,8 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
