@@ -1,7 +1,6 @@
 {
     "docker.io/library/fedora:36": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
@@ -624,7 +623,8 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
