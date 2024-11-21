@@ -85,8 +85,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -120,6 +118,8 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
