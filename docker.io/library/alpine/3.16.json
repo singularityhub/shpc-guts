@@ -86,7 +86,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -261,6 +260,7 @@
                 "setlogcons"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
