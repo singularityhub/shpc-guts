@@ -1,6 +1,8 @@
 {
     "docker.io/library/fedora:40": {
         "paths": {
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "alias",
@@ -634,8 +636,6 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
