@@ -210,7 +210,6 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -419,7 +418,8 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
