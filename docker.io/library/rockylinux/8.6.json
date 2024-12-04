@@ -496,6 +496,8 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
@@ -613,7 +615,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addr2line",
@@ -991,8 +992,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
