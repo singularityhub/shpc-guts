@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:10": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -345,7 +344,6 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -422,7 +420,9 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
