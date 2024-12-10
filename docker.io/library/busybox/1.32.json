@@ -403,11 +403,11 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/sbin": [],
             "/usr/bin": [],
             "/usr/local/sbin": [],
+            "/sbin": [],
             "/usr/local/bin": [],
-            "/sbin": []
+            "/usr/sbin": []
         },
         "fs": [
             "/.dockerenv",
