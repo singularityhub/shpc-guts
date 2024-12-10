@@ -120,7 +120,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -397,8 +397,9 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -793,8 +794,7 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
