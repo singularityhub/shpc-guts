@@ -398,7 +398,6 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -794,7 +793,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
