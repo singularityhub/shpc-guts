@@ -3,6 +3,8 @@
         "paths": {
             "/usr/sbin": [],
             "/sbin": [],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -409,9 +411,7 @@
             ],
             "/usr/bin": [
                 "env"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
