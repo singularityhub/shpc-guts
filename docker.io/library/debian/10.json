@@ -286,6 +286,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -344,7 +345,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/bin": [
                 "bash",
