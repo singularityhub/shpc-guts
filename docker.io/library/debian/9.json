@@ -268,8 +268,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -419,7 +417,9 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
