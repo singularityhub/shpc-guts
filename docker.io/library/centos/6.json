@@ -1,8 +1,6 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
@@ -332,6 +330,7 @@
                 "znew",
                 "zsoelim"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -464,7 +463,8 @@
                 "vipw",
                 "zdump",
                 "zic"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
