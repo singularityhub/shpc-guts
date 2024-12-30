@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.16": {
         "paths": {
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -175,6 +174,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -260,7 +260,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -323,7 +322,8 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
