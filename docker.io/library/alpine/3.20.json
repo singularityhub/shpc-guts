@@ -1,6 +1,7 @@
 {
     "docker.io/library/alpine:3.20": {
         "paths": {
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -238,6 +239,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -321,9 +323,7 @@
                 "usleep",
                 "watch",
                 "zcat"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
