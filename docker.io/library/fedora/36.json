@@ -61,7 +61,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
@@ -374,6 +373,7 @@
                 "visudo",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
