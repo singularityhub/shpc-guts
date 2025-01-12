@@ -398,9 +398,9 @@
                 "zcip"
             ],
             "/usr/local/bin": [],
-            "/usr/sbin": [],
             "/sbin": [],
             "/usr/bin": [],
+            "/usr/sbin": [],
             "/usr/local/sbin": []
         },
         "fs": [
