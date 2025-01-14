@@ -1,6 +1,7 @@
 {
     "docker.io/library/fedora:39": {
         "paths": {
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -629,8 +630,7 @@
                 "vipw",
                 "visudo",
                 "zic"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
