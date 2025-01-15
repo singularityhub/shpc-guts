@@ -1,8 +1,7 @@
 {
     "docker.io/library/ubuntu:20.04": {
         "paths": {
-            "/usr/local/bin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addpart",
                 "apt",
@@ -563,7 +562,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "addpart",
                 "apt",
