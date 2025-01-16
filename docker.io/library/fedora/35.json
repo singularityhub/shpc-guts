@@ -280,6 +280,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "addgnupghome",
@@ -559,8 +560,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
