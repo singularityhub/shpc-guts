@@ -1,8 +1,7 @@
 {
     "docker.io/library/centos:8": {
         "paths": {
-            "/usr/local/sbin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -584,8 +583,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -1166,7 +1165,8 @@
                 "zdump",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
