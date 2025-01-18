@@ -405,11 +405,11 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "env"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/sbin": [],
             "/sbin": []
         },
