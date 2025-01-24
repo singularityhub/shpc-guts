@@ -145,7 +145,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -208,6 +207,8 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -237,7 +238,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
