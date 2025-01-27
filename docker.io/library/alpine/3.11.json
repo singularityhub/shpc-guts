@@ -231,8 +231,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -266,6 +264,8 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
