@@ -2,7 +2,7 @@
     "docker.io/library/debian:12": {
         "paths": {
             "/usr/local/sbin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -398,7 +398,7 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
