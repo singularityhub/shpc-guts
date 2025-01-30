@@ -1,8 +1,11 @@
 {
     "docker.io/library/busybox:1.30": {
         "paths": {
+            "/usr/bin": [],
             "/usr/local/bin": [],
             "/sbin": [],
+            "/usr/local/sbin": [],
+            "/usr/sbin": [],
             "/bin": [
                 "[",
                 "[[",
@@ -400,10 +403,7 @@
                 "yes",
                 "zcat",
                 "zcip"
-            ],
-            "/usr/local/sbin": [],
-            "/usr/bin": [],
-            "/usr/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
