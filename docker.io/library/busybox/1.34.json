@@ -409,9 +409,9 @@
             "/usr/bin": [
                 "env"
             ],
-            "/sbin": [],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            "/sbin": []
         },
         "fs": [
             "/.dockerenv",
