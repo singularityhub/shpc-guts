@@ -1,7 +1,7 @@
 {
     "docker.io/library/ubuntu:24.04": {
         "paths": {
-            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -300,7 +300,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "agetty",
@@ -537,6 +536,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
