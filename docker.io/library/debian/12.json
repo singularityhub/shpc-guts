@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:12": {
         "paths": {
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -398,7 +399,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "addpart",
