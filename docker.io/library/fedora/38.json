@@ -1,7 +1,7 @@
 {
     "docker.io/library/fedora:38": {
         "paths": {
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
@@ -568,7 +568,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
