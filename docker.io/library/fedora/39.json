@@ -315,6 +315,7 @@
                 "visudo",
                 "zic"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -376,8 +377,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "alias",
@@ -630,7 +629,8 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
