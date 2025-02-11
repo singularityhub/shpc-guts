@@ -63,7 +63,7 @@
                 "zic"
             ],
             "/usr/local/bin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -349,7 +349,7 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
