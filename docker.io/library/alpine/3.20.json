@@ -30,6 +30,8 @@
                 "setfont",
                 "setlogcons"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -177,7 +179,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -322,8 +323,7 @@
                 "xxd",
                 "xzcat",
                 "yes"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
