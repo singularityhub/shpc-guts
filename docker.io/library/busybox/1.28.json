@@ -397,8 +397,8 @@
             ],
             "/usr/local/sbin": [],
             "/sbin": [],
-            "/usr/sbin": [],
             "/usr/local/bin": [],
+            "/usr/sbin": [],
             "/usr/bin": []
         },
         "fs": [
