@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:11": {
         "paths": {
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -59,7 +60,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -334,6 +334,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -396,8 +397,7 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
