@@ -1,7 +1,7 @@
 {
     "docker.io/library/fedora:40": {
         "paths": {
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
@@ -62,7 +62,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -349,6 +348,7 @@
                 "zstdless",
                 "zstdmt"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "alias",
@@ -636,7 +636,7 @@
                 "zstdmt"
             ],
             "/usr/local/sbin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
