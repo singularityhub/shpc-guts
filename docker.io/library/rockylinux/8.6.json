@@ -1,9 +1,7 @@
 {
     "docker.io/library/rockylinux:8.6": {
         "paths": {
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -498,6 +496,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addr2line",
@@ -876,7 +875,8 @@
                 "zmore",
                 "znew"
             ],
-            "/sbin": [
+            "/usr/local/sbin": [],
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
