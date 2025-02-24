@@ -1,8 +1,7 @@
 {
     "docker.io/library/rockylinux:9.0": {
         "paths": {
-            "/usr/local/bin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -113,7 +112,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -485,8 +484,7 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/sbin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "addpart",
                 "adduser",
@@ -597,7 +595,9 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
