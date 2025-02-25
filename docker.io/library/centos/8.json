@@ -160,9 +160,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
-            "/usr/bin": [
+            "/bin": [
                 "[",
                 "addr2line",
                 "alias",
@@ -744,7 +743,8 @@
                 "zic",
                 "zramctl"
             ],
-            "/bin": [
+            "/usr/local/sbin": [],
+            "/usr/bin": [
                 "[",
                 "addr2line",
                 "alias",
