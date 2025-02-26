@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -211,7 +210,6 @@
                 "yes",
                 "zdump"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -419,7 +417,9 @@
                 "zless",
                 "zmore",
                 "znew"
-            ]
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
