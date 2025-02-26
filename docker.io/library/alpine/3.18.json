@@ -1,35 +1,6 @@
 {
     "docker.io/library/alpine:3.18": {
         "paths": {
-            "/usr/sbin": [
-                "add-shell",
-                "addgroup",
-                "adduser",
-                "arping",
-                "brctl",
-                "chpasswd",
-                "chroot",
-                "crond",
-                "delgroup",
-                "deluser",
-                "ether-wake",
-                "fbset",
-                "killall5",
-                "loadfont",
-                "nanddump",
-                "nandwrite",
-                "nbd-client",
-                "ntpd",
-                "partprobe",
-                "rdate",
-                "rdev",
-                "readahead",
-                "remove-shell",
-                "rfkill",
-                "sendmail",
-                "setfont",
-                "setlogcons"
-            ],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -175,6 +146,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -238,7 +210,6 @@
                 "watchdog",
                 "zcip"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -324,7 +295,36 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": []
+            "/usr/local/bin": [],
+            "/usr/sbin": [
+                "add-shell",
+                "addgroup",
+                "adduser",
+                "arping",
+                "brctl",
+                "chpasswd",
+                "chroot",
+                "crond",
+                "delgroup",
+                "deluser",
+                "ether-wake",
+                "fbset",
+                "killall5",
+                "loadfont",
+                "nanddump",
+                "nandwrite",
+                "nbd-client",
+                "ntpd",
+                "partprobe",
+                "rdate",
+                "rdev",
+                "readahead",
+                "remove-shell",
+                "rfkill",
+                "sendmail",
+                "setfont",
+                "setlogcons"
+            ]
         },
         "fs": [
             "/.dockerenv",
