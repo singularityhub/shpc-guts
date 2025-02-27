@@ -1,7 +1,7 @@
 {
     "docker.io/library/ubuntu:24.04": {
         "paths": {
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "agetty",
                 "badblocks",
@@ -119,7 +119,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -719,7 +718,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "agetty",
                 "badblocks",
@@ -836,7 +835,8 @@
                 "wipefs",
                 "zic",
                 "zramctl"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
