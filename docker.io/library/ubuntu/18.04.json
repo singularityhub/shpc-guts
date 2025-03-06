@@ -89,9 +89,6 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -309,6 +306,9 @@
                 "xargs",
                 "yes",
                 "zdump"
+            ],
+            "/usr/local/sbin": [
+                "unminimize"
             ],
             "/usr/sbin": [
                 "add-shell",
