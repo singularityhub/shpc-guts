@@ -260,7 +260,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
@@ -324,7 +323,8 @@
                 "vconfig",
                 "watchdog",
                 "zcip"
-            ]
+            ],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
