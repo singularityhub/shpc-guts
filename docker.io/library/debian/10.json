@@ -267,6 +267,7 @@
                 "yes",
                 "zdump"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "agetty",
@@ -421,8 +422,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
