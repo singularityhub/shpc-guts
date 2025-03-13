@@ -1,6 +1,7 @@
 {
     "docker.io/library/alpine:3.15": {
         "paths": {
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -143,37 +144,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
-                "add-shell",
-                "addgroup",
-                "adduser",
-                "arping",
-                "brctl",
-                "chpasswd",
-                "chroot",
-                "crond",
-                "delgroup",
-                "deluser",
-                "ether-wake",
-                "fbset",
-                "killall5",
-                "loadfont",
-                "nanddump",
-                "nandwrite",
-                "nbd-client",
-                "ntpd",
-                "partprobe",
-                "rdate",
-                "rdev",
-                "readahead",
-                "remove-shell",
-                "rfkill",
-                "sendmail",
-                "setfont",
-                "setlogcons"
-            ],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -237,6 +207,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -319,6 +290,35 @@
                 "usleep",
                 "watch",
                 "zcat"
+            ],
+            "/usr/sbin": [
+                "add-shell",
+                "addgroup",
+                "adduser",
+                "arping",
+                "brctl",
+                "chpasswd",
+                "chroot",
+                "crond",
+                "delgroup",
+                "deluser",
+                "ether-wake",
+                "fbset",
+                "killall5",
+                "loadfont",
+                "nanddump",
+                "nandwrite",
+                "nbd-client",
+                "ntpd",
+                "partprobe",
+                "rdate",
+                "rdev",
+                "readahead",
+                "remove-shell",
+                "rfkill",
+                "sendmail",
+                "setfont",
+                "setlogcons"
             ]
         },
         "fs": [
