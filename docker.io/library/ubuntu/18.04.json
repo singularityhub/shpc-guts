@@ -57,7 +57,6 @@
                 "vipw",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "bunzip2",
@@ -145,6 +144,9 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -214,9 +216,7 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
