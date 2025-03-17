@@ -64,8 +64,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -149,6 +147,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -319,7 +318,8 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
