@@ -142,7 +142,6 @@
                 "zic",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addr2line",
@@ -744,6 +743,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addr2line",
