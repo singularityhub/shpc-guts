@@ -145,6 +145,7 @@
                 "xzcat",
                 "yes"
             ],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
@@ -209,7 +210,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
