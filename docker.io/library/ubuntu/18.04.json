@@ -126,6 +126,10 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "bunzip2",
@@ -430,11 +434,7 @@
                 "xargs",
                 "yes",
                 "zdump"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
