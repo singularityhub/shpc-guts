@@ -1,11 +1,11 @@
 {
     "docker.io/library/busybox:1.28": {
         "paths": {
-            "/usr/sbin": [],
-            "/sbin": [],
+            "/usr/local/sbin": [],
             "/usr/bin": [],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
+            "/sbin": [],
+            "/usr/sbin": [],
             "/bin": [
                 "[",
                 "[[",
