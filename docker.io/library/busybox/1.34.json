@@ -405,13 +405,13 @@
                 "zcat",
                 "zcip"
             ],
+            "/usr/sbin": [],
+            "/sbin": [],
+            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/usr/bin": [
                 "env"
-            ],
-            "/sbin": [],
-            "/usr/local/bin": [],
-            "/usr/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
