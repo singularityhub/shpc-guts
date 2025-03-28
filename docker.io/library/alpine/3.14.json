@@ -2,6 +2,7 @@
     "docker.io/library/alpine:3.14": {
         "paths": {
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -177,7 +178,6 @@
                 "vconfig",
                 "watchdog"
             ],
-            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
