@@ -398,10 +398,10 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
-            "/usr/sbin": [],
-            "/usr/bin": []
+            "/usr/bin": [],
+            "/usr/local/sbin": [],
+            "/usr/sbin": []
         },
         "fs": [
             "/.dockerenv",
