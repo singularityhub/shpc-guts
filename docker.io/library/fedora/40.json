@@ -287,8 +287,7 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/usr/local/sbin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
@@ -349,6 +348,7 @@
                 "visudo",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/bin": [
                 "[",
@@ -636,7 +636,7 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
                 "agetty",
