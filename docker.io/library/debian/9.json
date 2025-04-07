@@ -1,6 +1,7 @@
 {
     "docker.io/library/debian:9": {
         "paths": {
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -59,6 +60,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "bash",
                 "cat",
@@ -138,8 +140,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
