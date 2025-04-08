@@ -85,8 +85,6 @@
                 "watch",
                 "zcat"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -150,6 +148,7 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -323,7 +322,8 @@
                 "xxd",
                 "xzcat",
                 "yes"
-            ]
+            ],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
