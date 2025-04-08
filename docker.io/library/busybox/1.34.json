@@ -407,11 +407,11 @@
             ],
             "/usr/local/bin": [],
             "/usr/sbin": [],
-            "/sbin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "env"
-            ]
+            ],
+            "/usr/local/sbin": [],
+            "/sbin": []
         },
         "fs": [
             "/.dockerenv",
