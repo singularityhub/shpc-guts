@@ -4,8 +4,7 @@
             "/usr/local/sbin": [
                 "unminimize"
             ],
-            "/usr/local/bin": [],
-            "/usr/sbin": [
+            "/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -126,7 +125,7 @@
                 "zic",
                 "zramctl"
             ],
-            "/sbin": [
+            "/usr/sbin": [
                 "add-shell",
                 "addgroup",
                 "adduser",
@@ -543,6 +542,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
