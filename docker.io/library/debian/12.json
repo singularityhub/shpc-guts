@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:12": {
         "paths": {
-            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -279,6 +278,7 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
