@@ -1,7 +1,8 @@
 {
     "docker.io/library/fedora:35": {
         "paths": {
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -331,8 +332,7 @@
                 "zic"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
