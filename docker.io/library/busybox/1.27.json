@@ -391,9 +391,9 @@
                 "zcat",
                 "zcip"
             ],
-            "/usr/bin": [],
+            "/sbin": [],
             "/usr/sbin": [],
-            "/sbin": []
+            "/usr/bin": []
         },
         "fs": [
             "/.dockerenv",
