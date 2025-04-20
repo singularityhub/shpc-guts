@@ -1,35 +1,6 @@
 {
     "docker.io/library/alpine:3.20": {
         "paths": {
-            "/usr/sbin": [
-                "add-shell",
-                "addgroup",
-                "adduser",
-                "arping",
-                "brctl",
-                "chpasswd",
-                "chroot",
-                "crond",
-                "delgroup",
-                "deluser",
-                "ether-wake",
-                "fbset",
-                "killall5",
-                "loadfont",
-                "nanddump",
-                "nandwrite",
-                "nbd-client",
-                "ntpd",
-                "partprobe",
-                "rdate",
-                "rdev",
-                "readahead",
-                "remove-shell",
-                "rfkill",
-                "sendmail",
-                "setfont",
-                "setlogcons"
-            ],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -238,6 +209,37 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
+            "/usr/sbin": [
+                "add-shell",
+                "addgroup",
+                "adduser",
+                "arping",
+                "brctl",
+                "chpasswd",
+                "chroot",
+                "crond",
+                "delgroup",
+                "deluser",
+                "ether-wake",
+                "fbset",
+                "killall5",
+                "loadfont",
+                "nanddump",
+                "nandwrite",
+                "nbd-client",
+                "ntpd",
+                "partprobe",
+                "rdate",
+                "rdev",
+                "readahead",
+                "remove-shell",
+                "rfkill",
+                "sendmail",
+                "setfont",
+                "setlogcons"
+            ],
             "/bin": [
                 "arch",
                 "ash",
@@ -321,9 +323,7 @@
                 "usleep",
                 "watch",
                 "zcat"
-            ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
