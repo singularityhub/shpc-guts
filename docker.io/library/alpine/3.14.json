@@ -256,6 +256,7 @@
                 "watch",
                 "zcat"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -318,8 +319,7 @@
                 "udhcpc",
                 "vconfig",
                 "watchdog"
-            ],
-            "/usr/local/bin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
