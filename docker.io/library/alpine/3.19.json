@@ -64,6 +64,7 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -177,7 +178,6 @@
                 "setfont",
                 "setlogcons"
             ],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "[[",
