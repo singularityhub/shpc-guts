@@ -62,7 +62,8 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/bin": [
+            "/usr/local/sbin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -316,8 +317,7 @@
                 "znew"
             ],
             "/usr/local/bin": [],
-            "/usr/local/sbin": [],
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
