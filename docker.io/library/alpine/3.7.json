@@ -1,7 +1,7 @@
 {
     "docker.io/library/alpine:3.7": {
         "paths": {
-            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -146,7 +146,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -210,6 +209,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "ash",
                 "base64",
