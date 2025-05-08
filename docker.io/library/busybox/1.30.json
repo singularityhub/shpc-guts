@@ -399,10 +399,10 @@
                 "zcat",
                 "zcip"
             ],
-            "/sbin": [],
             "/usr/sbin": [],
-            "/usr/local/sbin": [],
+            "/sbin": [],
             "/usr/bin": [],
+            "/usr/local/sbin": [],
             "/usr/local/bin": []
         },
         "fs": [
