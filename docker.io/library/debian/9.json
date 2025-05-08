@@ -72,8 +72,6 @@
                 "wipefs",
                 "zramctl"
             ],
-            "/usr/local/bin": [],
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "addpart",
@@ -419,7 +417,9 @@
                 "vigr",
                 "vipw",
                 "zic"
-            ]
+            ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
