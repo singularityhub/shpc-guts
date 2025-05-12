@@ -60,7 +60,6 @@
                 "zic"
             ],
             "/usr/local/sbin": [],
-            "/usr/local/bin": [],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -124,6 +123,7 @@
                 "wipefs",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "bash",
                 "cat",
