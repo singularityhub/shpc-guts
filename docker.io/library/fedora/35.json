@@ -230,7 +230,6 @@
                 "zmore",
                 "znew"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -511,6 +510,7 @@
                 "znew"
             ],
             "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
