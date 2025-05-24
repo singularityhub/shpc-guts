@@ -1,7 +1,6 @@
 {
     "docker.io/library/fedora:35": {
         "paths": {
-            "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
                 "alias",
@@ -281,7 +280,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -511,6 +509,8 @@
                 "zmore",
                 "znew"
             ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "adduser",
