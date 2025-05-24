@@ -348,7 +348,6 @@
                 "zstdless",
                 "zstdmt"
             ],
-            "/usr/local/bin": [],
             "/usr/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -410,7 +409,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": [],
             "/bin": [
                 "[",
                 "alias",
@@ -696,7 +694,9 @@
                 "zstdgrep",
                 "zstdless",
                 "zstdmt"
-            ]
+            ],
+            "/usr/local/sbin": [],
+            "/usr/local/bin": []
         },
         "fs": [
             "/.dockerenv",
