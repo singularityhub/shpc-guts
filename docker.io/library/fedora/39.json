@@ -315,6 +315,7 @@
                 "visudo",
                 "zic"
             ],
+            "/usr/local/bin": [],
             "/sbin": [
                 "addgnupghome",
                 "adduser",
@@ -376,7 +377,6 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/bin": [],
             "/usr/local/sbin": [],
             "/usr/bin": [
                 "[",
