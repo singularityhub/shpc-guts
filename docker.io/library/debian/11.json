@@ -59,6 +59,7 @@
                 "vipw",
                 "zic"
             ],
+            "/usr/local/sbin": [],
             "/usr/local/bin": [],
             "/bin": [
                 "bash",
@@ -396,8 +397,7 @@
                 "unix_update",
                 "wipefs",
                 "zramctl"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
