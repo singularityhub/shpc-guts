@@ -58,6 +58,9 @@
                 "zic"
             ],
             "/usr/local/bin": [],
+            "/usr/local/sbin": [
+                "unminimize"
+            ],
             "/sbin": [
                 "agetty",
                 "badblocks",
@@ -344,9 +347,6 @@
                 "xargs",
                 "yes",
                 "zdump"
-            ],
-            "/usr/local/sbin": [
-                "unminimize"
             ],
             "/bin": [
                 "bash",
