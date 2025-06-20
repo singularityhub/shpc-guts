@@ -406,9 +406,9 @@
                 "zcip"
             ],
             "/sbin": [],
+            "/usr/bin": [],
             "/usr/local/sbin": [],
-            "/usr/sbin": [],
-            "/usr/bin": []
+            "/usr/sbin": []
         },
         "fs": [
             "/.dockerenv",
