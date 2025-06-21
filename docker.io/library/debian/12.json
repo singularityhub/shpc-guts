@@ -1,7 +1,6 @@
 {
     "docker.io/library/debian:12": {
         "paths": {
-            "/usr/local/bin": [],
             "/sbin": [
                 "add-shell",
                 "addgroup",
@@ -121,6 +120,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -240,6 +240,7 @@
                 "zic",
                 "zramctl"
             ],
+            "/usr/local/bin": [],
             "/bin": [
                 "[",
                 "addpart",
@@ -793,8 +794,7 @@
                 "zless",
                 "zmore",
                 "znew"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
