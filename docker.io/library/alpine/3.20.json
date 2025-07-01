@@ -1,7 +1,6 @@
 {
     "docker.io/library/alpine:3.20": {
         "paths": {
-            "/usr/local/sbin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -65,6 +64,8 @@
                 "watchdog",
                 "zcip"
             ],
+            "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/usr/sbin": [
                 "add-shell",
                 "addgroup",
@@ -239,7 +240,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/bin": [
                 "arch",
                 "ash",
