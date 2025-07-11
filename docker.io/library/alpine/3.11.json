@@ -1,6 +1,7 @@
 {
     "docker.io/library/alpine:3.11": {
         "paths": {
+            "/usr/local/bin": [],
             "/usr/bin": [
                 "[",
                 "[[",
@@ -147,7 +148,6 @@
                 "xzcat",
                 "yes"
             ],
-            "/usr/local/bin": [],
             "/sbin": [
                 "acpid",
                 "adjtimex",
@@ -211,6 +211,7 @@
                 "vconfig",
                 "watchdog"
             ],
+            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "ash",
@@ -327,8 +328,7 @@
                 "sendmail",
                 "setfont",
                 "setlogcons"
-            ],
-            "/usr/local/sbin": []
+            ]
         },
         "fs": [
             "/.dockerenv",
