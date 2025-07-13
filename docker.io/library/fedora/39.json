@@ -1,7 +1,7 @@
 {
     "docker.io/library/fedora:39": {
         "paths": {
-            "/bin": [
+            "/usr/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -315,8 +315,8 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/sbin": [],
-            "/usr/bin": [
+            "/usr/local/bin": [],
+            "/bin": [
                 "[",
                 "alias",
                 "arch",
@@ -630,7 +630,7 @@
                 "visudo",
                 "zic"
             ],
-            "/usr/local/bin": []
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
