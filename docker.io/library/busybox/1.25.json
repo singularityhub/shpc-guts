@@ -374,10 +374,10 @@
                 "zcip"
             ],
             "/sbin": [],
+            "/usr/bin": [],
             "/usr/sbin": [],
-            "/usr/local/sbin": [],
             "/usr/local/bin": [],
-            "/usr/bin": []
+            "/usr/local/sbin": []
         },
         "fs": [
             "/.dockerenv",
