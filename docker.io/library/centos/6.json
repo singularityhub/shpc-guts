@@ -1,7 +1,6 @@
 {
     "docker.io/library/centos:6": {
         "paths": {
-            "/usr/local/sbin": [],
             "/bin": [
                 "arch",
                 "awk",
@@ -426,6 +425,7 @@
                 "zsoelim"
             ],
             "/usr/local/bin": [],
+            "/usr/local/sbin": [],
             "/sbin": [
                 "MAKEDEV",
                 "arp",
